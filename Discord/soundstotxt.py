@@ -1,6 +1,6 @@
 import os
 
-dir = os.path.dirname('C://Users/saykı/Desktop/Code/Pyhton Klasör/Python_Camping/selenium/Discord/sounnds/as')
+dir = os.path.dirname('/path/to/folder')
 
 as1 = os.listdir(dir)
 

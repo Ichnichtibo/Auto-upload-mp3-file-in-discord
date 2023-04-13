@@ -4,8 +4,6 @@ dir = os.path.dirname('C://Users/saykı/Desktop/Code/Pyhton Klasör/Python_Campi
 
 as1 = os.listdir(dir)
 
-deneme = 'C:/Users/saykı\Desktop\Code\Pyhton Klasör\Python_Camping\selenium\Discord\sounnds\6 Litre Pırıl 10 Liraydı.mp3'
-
 
 
 dosya = open("liste.txt","w",encoding="utf-8")

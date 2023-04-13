@@ -28,7 +28,7 @@ class Discord:
         self.voiceDowload()
 
     def goSettings(self):
-        self.browser.get("https://discord.com/channels/320479122910347265/723914979639558154")
+        self.browser.get("your discord server link")
         time.sleep(5)
         self.browser.find_element(By.XPATH,'//*[@id="app-mount"]/div[2]/div[1]/div[1]/div/div[2]/div/div/div/div/div[1]/nav/div[1]').click()
         time.sleep(1)
@@ -47,7 +47,7 @@ class Discord:
             voiceInput = self.browser.find_element(By.XPATH,'//*[@id="app-mount"]/div[2]/div[1]/div[3]/div[2]/div/div/div[2]/div[1]/div/button/div/input')
         
         
-            voiceInput.send_keys(f"C:/Users/saykı/Desktop/Code/Pyhton Klasör/Python_Camping/selenium/Discord/sounnds/{name}")
+            voiceInput.send_keys(f"/path/to/folder{name}")
             voiceNameInput.send_keys(f"{name}")
             time.sleep(1)
             self.browser.find_element(By.XPATH,'//*[@id="app-mount"]/div[2]/div[1]/div[3]/div[2]/div/div/div[3]/button[1]').click()

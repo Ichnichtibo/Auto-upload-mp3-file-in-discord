@@ -1,2 +1,3 @@
-username = "ibrahimarifsayki@hotmail.com"
-password = "Sayki1441."
+# this is your discord account email and password
+username = "user@mail.com"
+password = "userPasswor"
